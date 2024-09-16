@@ -90,7 +90,7 @@ The project timeline was 9 weeks.
 #### Objective
 The primary goal of this project was to design and implement a Data Analytics Platform (DAP) on AWS for the City of Vancouver, focusing on optimizing the business license issuance process. Through this platform, we aimed to enhance operational efficiency, improve decision-making, and streamline the city's data management capabilities.
 
-![Descriptive Analysis DAP](https://raw.githubusercontent.com/2243038/data-analyst-Simran/main/images/DA.jpg)
+![Descriptive Analysis DAP](https://raw.githubusercontent.com/2243038/data-analyst-Simran/main/images/DA.drawio.png)
 
 #### Dataset
 The dataset included business license information from the City of Vancouver's Open Data Portal, containing the following key features:
@@ -133,7 +133,7 @@ The primary objective of this project was to establish a comprehensive Data Qual
 #### Background
 As the City of Vancouver continued to expand its data-driven initiatives, maintaining high data quality was crucial for accurate analytics and decision-making. The AWS Data Analytic Platform project involved processing vast amounts of business license data. However, issues such as data security, governance, and monitoring needed to be addressed to ensure the platform's effectiveness and reliability.
 
-![Data Quality Control DAP](https://raw.githubusercontent.com/2243038/data-analyst-Simran/main/images/DQC.jpg)
+![Data Quality Control DAP](https://raw.githubusercontent.com/2243038/data-analyst-Simran/main/images/DCQ.drawio.png)
 
 #### Scope
 The project focused on the following key areas:
