@@ -38,6 +38,8 @@ The project followed a 15-step Data Analytics Platform implementation process:
 #### AWS Architecture and Tools
 
 ![Data Wrangling DAP](https://raw.githubusercontent.com/2243038/data-analyst-Simran/main/images/DW.jpg)
+<img width="547" alt="analytical" src="https://github.com/user-attachments/assets/9d04f6e0-2506-44d6-b18e-c04a248d30a8">
+
 
 The DAP utilized the following AWS services and components:
 1. Amazon S3: For data storage, with multiple buckets for different stages of data processing.
