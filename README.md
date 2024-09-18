@@ -37,7 +37,6 @@ The project followed a 15-step Data Analytics Platform implementation process:
 
 #### AWS Architecture and Tools
 
-![Data Wrangling DAP](https://raw.githubusercontent.com/2243038/data-analyst-Simran/main/images/DW.jpg)
 
 
 
@@ -135,7 +134,7 @@ The primary objective of this project was to establish a comprehensive Data Qual
 #### Background
 As the City of Vancouver continued to expand its data-driven initiatives, maintaining high data quality was crucial for accurate analytics and decision-making. The AWS Data Analytic Platform project involved processing vast amounts of business license data. However, issues such as data security, governance, and monitoring needed to be addressed to ensure the platform's effectiveness and reliability.
 
-<img width="748" alt="simraan" src="https://github.com/user-attachments/assets/19e1bf3a-7e67-4711-be62-f209f558c869">
+![DA drawio](https://github.com/user-attachments/assets/0542f847-20ec-4859-b3ae-8e4509c8bcbe)
 
 
 #### Scope
