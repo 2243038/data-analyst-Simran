@@ -2,89 +2,82 @@
 
 ## Data Wrangling Project
 
-### Project Title: Data Analytics Platform (DAP) Implementation for Enhanced Admission Procedures at UCW Registrar's Office
-
+Project Title: Data Analytics Platform (DAP) Implementation for Enhanced Recruitment and Selection Procedures at UCW HR Department
 #### Objective
-The primary goal of this project was to implement a Data Analytics Platform (DAP) to improve the performance of admission procedures at the University Canada West (UCW) Registrar's Office. By leveraging AWS services and following a structured data analytics approach, the project aimed to enhance the efficiency, accuracy, and insights derived from the admission process data.
+The primary goal of this project was to implement a Data Analytics Platform (DAP) to improve the performance of recruitment and selection procedures at the University Canada West (UCW) HR Department. By leveraging AWS services and following a structured data analytics approach, the project aimed to enhance the efficiency, accuracy, and insights derived from recruitment process data.
 
 #### Background
-The UCW Registrar's Office had accumulated data from various aspects of the admission process, including applications, admission requirements, enrollment, and staff interactions. However, this data was often scattered across different systems, making it challenging to derive meaningful insights. The implementation of a DAP facilitated better decision-making and more efficient admission procedures.
+The UCW HR Department had accumulated data from various aspects of the recruitment and selection process, including job applications, candidate assessments, interview records, and onboarding activities. However, this data was often scattered across different systems, making it challenging to derive meaningful insights. The implementation of a DAP facilitated better decision-making and more efficient recruitment procedures.
 
-#### Dataset
-The data wrangling process involved various datasets, including:
-- Applications: Containing applicant details such as name, date of birth, gender, application date, and desired major.
-- Admission Requirements: Information on specific requirements for each program.
-- Enrollment Data: Records of successful enrollments.
-- Staff Interactions: Data from staff emails, meetings, and calls related to the admission process.
+Dataset
+#### The data wrangling process involved various datasets, including:
 
+#### Job Applications: Containing candidate details such as name, date of birth, gender, application date, and applied position.
+Candidate Assessments: Information on assessment scores, test results, and evaluations.
+Interview Records: Data from interview schedules, feedback, and outcomes.
+Onboarding Activities: Records of successful onboarding processes and related activities.
 #### Methodology
 The project followed a 15-step Data Analytics Platform implementation process:
-1. Data Analytical Question Formulation
-2. Data Discovery
-3. Data Storage Design
-4. Test Dataset Generation
-5. Data Ingestion
-6. Data Storage
-7. Data Pipeline Design
-8. Data Cleaning
-9. Data Structuring
-10. Data Pipeline Implementation
-11. Data Analysis
-12. Data Visualization
-13. Data Publishing
-14. Data Enriching
-15. Data Protection
+
+#### Data Analytical Question Formulation
+#### Data Discovery
+#### Data Storage Design
+#### Test Dataset Generation
+#### Data Ingestion
+#### Data Storage
+#### Data Pipeline Design
+#### Data Cleaning
+#### Data Structuring
+#### Data Pipeline Implementation
+#### Data Analysis
+#### Data Visualization
+#### Data Publishing
+#### Data Enriching
+#### Data Protection
 <img width="748" alt="simraan" src="https://github.com/user-attachments/assets/1ff80213-f1ad-4224-82d2-b46eaf3713d6">
 
-#### AWS Architecture and Tools
-
-
-
-
+AWS Architecture and Tools
 The DAP utilized the following AWS services and components:
-1. Amazon S3: For data storage, with multiple buckets for different stages of data processing.
-2. AWS Glue: For data integration and ETL (Extract, Transform, Load) processes.
-3. AWS Glue DataBrew: For data preparation and transformation.
-4. Amazon Athena: For querying data stored in S3.
-5. Amazon QuickSight: For data visualization and dashboard creation.
-6. Amazon EC2: For hosting custom applications or processing tasks.
 
+Amazon S3: For data storage, with multiple buckets for different stages of data processing.
+AWS Glue: For data integration and ETL (Extract, Transform, Load) processes.
+AWS Glue DataBrew: For data preparation and transformation.
+Amazon Athena: For querying data stored in S3.
+Amazon QuickSight: For data visualization and dashboard creation.
+Amazon EC2: For hosting custom applications or processing tasks.
 The architecture also included:
-- Data pipelines for the Registrar's Office
-- Data Catalog for metadata management
-- Web Server and General Server for hosting applications
 
+Data pipelines for the HR Department
+Data Catalog for metadata management
+Web Server and General Server for hosting applications
 #### Key Metrics
 The project focused on four types of metrics:
-1. Descriptive Metric: Application Completion Rate 
-   - Data Source: Applications
-2. Diagnostic Metric: Error Rate in Application Submission 
-   - Data Source: Admission Requirements
-3. Predictive Metric: Application Yield Rate 
-   - Data Source: Enrollment
-4. Prescriptive Metric: Application Resource Allocation Index 
-   - Data Sources: Staff Email, Staff Meeting, Staff Calls
 
+#### Descriptive Metric: Application to Interview Conversion Rate
+Data Source: Job Applications
+Diagnostic Metric: Candidate Drop-off Rate
+Data Source: Candidate Assessments
+Predictive Metric: Interview to Hire Conversion Rate
+Data Source: Interview Records
+Prescriptive Metric: Onboarding Efficiency Index
+Data Sources: Onboarding Activities
 #### Data Flow
-1. Raw data was ingested into the "Admission/Landing" S3 bucket.
-2. Data was then processed and moved to the "Admission/Raw" bucket.
-3. Further processing occurred, and data was stored in the "Admission/Trusted" bucket.
-4. Finally, curated data was stored in the "Admission/Curated" bucket.
-5. The curated data was then used for analysis, visualization, and creation of data products.
-
-#### Security and Compliance
-The architecture included security measures, as indicated by the security-related icons in the bottom-left corner of the image.
+Raw data was ingested into the "Recruitment/Landing" S3 bucket.
+Data was then processed and moved to the "Recruitment/Raw" bucket.
+Further processing occurred, and data was stored in the "Recruitment/Trusted" bucket.
+Finally, curated data was stored in the "Recruitment/Curated" bucket.
+The curated data was then used for analysis, visualization, and creation of data products.
+Security and Compliance
+The architecture included security measures, such as encryption, access controls, and compliance with data protection regulations, to ensure the safety and confidentiality of HR data.
 
 #### Deliverables
-1. A fully implemented Data Analytics Platform on AWS
-2. Cleaned and transformed datasets ready for analysis
-3. Interactive dashboards for visualizing key admission metrics
-4. Documentation of the data wrangling and analysis processes
-5. Recommendations for improving admission procedures based on the insights gained
-
-#### Timeline
+A fully implemented Data Analytics Platform on AWS
+Cleaned and transformed datasets ready for analysis
+Interactive dashboards for visualizing key recruitment metrics
+Documentation of the data wrangling and analysis processes
+Recommendations for improving recruitment procedures based on the insights gained
+Timeline
 The project timeline was 9 weeks.
-
 ## Descriptive Analysis Project
 
 ### Project Title: Implementing an AWS-Based Data Analytics Platform to Optimize Business License Issuance in Vancouver
