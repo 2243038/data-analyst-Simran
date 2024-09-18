@@ -34,6 +34,7 @@ The project followed a 15-step Data Analytics Platform implementation process:
 13. Data Publishing
 14. Data Enriching
 15. Data Protection
+<img width="748" alt="simraan" src="https://github.com/user-attachments/assets/1ff80213-f1ad-4224-82d2-b46eaf3713d6">
 
 #### AWS Architecture and Tools
 
